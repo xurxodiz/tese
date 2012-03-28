@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#sidebar {
+  margin: 20px 10px 10px 10px;
+  font: 10pt "Lucida Sans", sans-serif;
+  width: 28%;
+  float: left;
+  padding: 7px;
+}
+
+#sidebar strong {
+  color: #dea11f;
+}
+
+#toggler {
+  margin-bottom: 20px;
+}
+
+#toggler a {
+  display: block;
+  float: left;
+  margin: 4px;
+  padding: 5px;
+  width: 27%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.active {
+  background: #ededcc;
+}
+
+.not_active {
+  background: #f0f0f0;
+}
+
+#help {
+  padding-top: 10px;
+  clear: both;
+}
+
+#help div {
+  display: none;
+  margin: 5px 10px;
+}
+#help p {
+  margin-bottom: 10px;
+}
+
+#help ul {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+#help li {
+  margin-bottom: 5px;
+}
+
+#content {
+  width: 65%;
+  float: left;
+  padding: 7px;
+}
+
+#header {
+  margin: 20px auto;
+  text-align: center;
+}
+
+#header img {
+  margin: 0 auto;
+  height: 200px;
+}
+
+#interact {
+  /* background: #ededcc; */
+  padding: 15px 15px 15px 15px;
+  width: 100%;
+}
+
+input[type="text"] {
+  width: 100%;
+  font-size: 18pt;
+  border: 2px #c3c3dd solid;
+  padding: 5px 35px 5px 5px;
+  color: gray;
+}
+
+.standby {
+  background: white;
+}
+
+.loading {
+  background: white url(loading.gif) no-repeat right;
+}
+
+#results {
+  clear: both;
+  margin-top: 25px;"
+}
+
+#results div {
+   background: #ededcc;
+   padding: 7px;
+   margin: 7px auto;
+   font-family: Helvetica, sans-serif;
+   font-size: 12pt;
+}

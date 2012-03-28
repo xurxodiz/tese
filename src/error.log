@@ -1,0 +1,15 @@
+
+error: "http://musicbrainz.org/ws/1/release/bdf9ece5-7045-4371-b4fe-ec004ae23b20/?type=xml&inc=release-events" (line 1, column 1):
+unexpected "Y"
+expecting xml declaration, comment, processing instruction, "<!DOCTYPE" or "<"
+
+
+error: "http://musicbrainz.org/ws/1/track/?type=xml&title=Estou%20na%20lavadora" (line 1, column 1):
+unexpected "T"
+expecting xml declaration, comment, processing instruction, "<!DOCTYPE" or "<"
+
+
+error: "http://musicbrainz.org/ws/1/track/?type=xml&title=O%20son%20do%20ar&artist=Luar%20na%20Lubre" (line 1, column 1):
+unexpected "T"
+expecting xml declaration, comment, processing instruction, "<!DOCTYPE" or "<"
+

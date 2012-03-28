@@ -1,0 +1,9 @@
+Use "make all" on the src folder to compile, then leave the src/Main daemon running and access through web/ or the TCP port 3838.
+
+Needs haskell, the Grammatical Framework and some extra libraries (htx, curl, dataenc). Of course, to use the web access you also need a web server (e.g. Apache) and PHP.
+
+The report folder contains both the report and the slides used in the defense/presentation.
+
+For more information, check http://diz.es/education/msc/thesis/
+
+- Jorge Diz, 2011

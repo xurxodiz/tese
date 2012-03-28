@@ -1,0 +1,90 @@
+<html>
+<head>
+	<title>Consúltalle ás Meigas</title>
+	<script type="text/javascript" src="ajax.js"></script>
+	<link rel="stylesheet" href="styles.css" type="text/css" />
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+</head> 
+
+<body onload="toggle('gl')">
+  
+<div id="sidebar">
+  
+  <div id="toggler">
+    <a id="toggle_gl" onclick="toggle('gl')">Galego</a>
+    <a id="toggle_en" onclick="toggle('en')">English</a>
+    <a id="toggle_es" onclick="toggle('es')">Castellano</a>
+  </div>
+  
+  <div id="help">
+    
+    <div id="help_gl">
+      <p>As meigas son mulleres místicas que gustan da natureza, da menciña... e da <strong>música</strong>. De feito disque na saia das meigas hai un lagarto pintado, e cando as meigas bailan, o lagarto move o rabo ;)</p>
+      <p>A través desta páxina podes facerlles chegar as túas preguntas sobre <strong>música</strong>, e elas remexerán no seu caldeiro e contactarán os espritos dos devanceiros para responderche. Lembra que podes empregar calisquera dos tres idiomas soportados que queiras, independentemente daquel no que esteas a ve-las suxerencias neses intres!</p>
+      <p>Estas son algúns exemplos de preguntas en galego:</p>
+      <ul>
+        <li>En que ano se lanzou "Estou na lavadora"?</li>
+        <li>En que ano sacou "Luar na Lubre" o seu tema "O son do ar"?</li>
+        <li>Cando saiu o primeiro disco dos Resentidos?</li>
+        <li>En que ano naceu "Amancio Prada"?</li>
+        <li>Cando morreu "Andrés do Barro"?</li>
+        <li>Cando se formou Milladoiro?</li>
+        <li>Cando se separaron Heredeiros?</li>
+        <li>En que ano se uniu "Xurxo Souto" aos Diplomáticos?</li>
+        <li>En que ano marchou "Xurxo Souto" dos Diplomáticos?</li>
+      </ul>
+    </div>
+    
+    <div id="help_en">
+      <p>The meigas are mystical women that like nature, medicine... and <strong>music</strong>. In fact, they say that "rock and roll" in based on actual movements from meiga dances when they go out at night to party in the forests ;)</p>
+      <p>Through this page you can send them your questions about <strong>music</strong>, and they will stir their cauldron and contact the spirits of the ancestors to answer you. Remember you can use any of the three supported languages you like, regardless of the one you are reading the suggestions on at that moment!</p>
+      <p>These are some examples of questions in English:</p>
+      <ul>
+        <li>When did the album "On the 6" come out?</li>
+        <li>In what year was the first album by "Pearl Jam" released?</li>
+        <li>In what year did "The Beatles" release the single Yesterday?</li>
+        <li>In what year was Björk born?</li>
+        <li>In what year did Sinatra die?</li>
+        <li>When were "The Rolling Stones" formed?</li>
+        <li>In what year was "Creedence Clearwater Revival" dissolved?</li>
+        <li>When did "Ozzy Osbourne" join "Black Sabbath"?</li>
+        <li>When did "Ozzy Osbourne" leave "Black Sabbath"?</li>
+      </ul>
+    </div>
+
+    <div id="help_es">
+      <p>Las meigas son mujeres místicas a las que les gusta la naturaleza, la medicina... y la <strong>música</strong>. De hecho se dice que la expresión "mover el esqueleto" la inventaron ellas, y tiene un origen bastante literal ;)</p>
+      <p>A través de esta página puedes hacerles llegar tus preguntas sobre <strong>música</strong>, y ellas removerán en su caldero y contactarán los espíritus de los antepasados para responderte. ¡Recuerda que puedes emplear cualquiera de los tres idiomas soportados que quieras, independientemente de aquel en el que estés viendo las sugerencias en esos momentos!</p>
+      <p>Estos son algunos ejemplos de preguntas en castellano:</p>
+      <ul>
+        <li>¿Cuándo salió el disco "El espíritu del vino"?</li>
+        <li>¿En qué año sacó Raphael Escándalo?</li>
+        <li>¿En qué año sacaron Estopa su primer álbum?</li>
+        <li>¿Cuándo nació Fito?</li>
+        <li>¿Cuándo murió "El Fary"?</li>
+        <li>¿En qué año se formó "Celtas Cortos"?</li>
+        <li>¿Cuándo se separaron "Ella Baila Sola"?</li>
+        <li>¿En qué año entró "Txus di Fellatio" en "Mägo de Oz"?</li>
+        <li>¿Cuándo se fue Amaia de "La Oreja de Van Gogh"?</li>
+    </div>
+  
+  </div>
+  
+</div>
+
+<div id="content">
+  
+  <div id="header"><img src="meiga.png" alt="Meiga" /></div>
+  
+  <div id="interact">
+    
+    <form onsubmit="sendServerRequest(); return false">
+    	<input type="text" id="question" onclick="txtstart()" value="... ?" />
+    </form>
+    
+    <div id="results"></div>
+
+  </div>
+</div>
+
+</body></html>
